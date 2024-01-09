@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+
+/* i container hanno una dimensione fissa,  centrati orizzontalmente */
+.container {
+
+
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container-small{
+  
+    
+   
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+ 
+    height: 400px;
+}
+
+.card{
+    border: 1px solid black;
+    width: calc((100% - 50px) / 3);
+    background-color: #a2e3ff;
+    border-radius: 8px;
+}
+
+header, section {
+    padding: 40px 20px;
+}
+
+
+.bg-purple{
+    background-color: #8673ff;
+}
+
+.bg-white {
+    background-color: white;
+    padding: 100px 0 50px 0;
+}
+.bg-color {
+    background-color: #8673ff ;
+
+}
+
+
+
+
+/* sezione navbar */
+nav {
+    background-color: #008cff;
+    /* test */
+    padding: 10px ;
+}
+
+nav .container > * {
+
+
+    padding: 10px;
+}
+
+nav .container {
+ 
+
+    display: flex;
+
+}
+
+nav .logo {
+    width: 100px;
+}
+
+
+nav .nav-links {
+    flex-grow: 1;
+}
+nav .nav-links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 12px;
+}
+
+
+nav .login {
+    width: 100px;
+    border-radius: 8px;
+    background-color: white;
+  
+   
+}
+/* fine sezione navbar */
+
+
+
+
+
+
+
+.cont{
+    width: 70%;
+    height: 100%;
+    border: 1px black solid;
+    background-color: blue;
+}
+
+
+
+
+
+.row {
+    display: flex;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+
+    
+}
+
+.column-big {
+   
+    height: 400px;
+
+ 
+
+    /* width: 60%; */
+    flex-grow: 1;
+}
+
+.column-small {
+    background-color: #ffc0cb;
+    height: 400px;
+
+
+}
+
+.test{
+    background-color:#8673ff;
+    border-radius: 25px;
+}
+
+
+
+.big-content {
+    display: flex;
+    border: 1px solid green;
+    height: 600px;
+    background-color: yellow;
+
+    /* test */
+}
+
+
+.bg-final{
+    background-color: #8673ff;
+
+}
+
+
+/* sezione footer */
+
+footer {
+    background-color: rgb(60, 58, 58);
+    /* test */
+
+    padding-top: 8px;
+}
+
+.bg-final .container-small{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    width: 50%;
+    background-color: white;
+
+}
+
+.footer-top{
+    background-color: #8673ff ;
+}
+ #footer-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 500px;
+    background-color: #8673ff;
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 100px;
+    background-color: rgb(60, 58, 58);
+}
+
+
+
+
+.footer-final{
+
+    height: 200px;
+    background-color: rgb(60, 58, 58);
+}
+
+
+
+/* fine sezione footer */
+
+
+
+
+
+
+
+

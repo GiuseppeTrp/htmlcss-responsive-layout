@@ -269,7 +269,7 @@ header .container ul li a{
     gap: 35px;
 }
 
- .container .lines .row {
+  .lines .row {
     background-color:rgb(155, 149, 239);
     border-radius: 50px;
     color: white;
@@ -279,28 +279,99 @@ header .container ul li a{
    
 }
 
- .container .lines .row .info {
+ .row .info {
     padding: 30px 35px 0px 65px;
     line-height: 30px;
 }
 
- .container .lines .row .info i:first-child {
+ .row .info i:first-child {
     vertical-align: top;
    
 }
 
 
- .container .lines .row .info .test-name {
+ .row .info .test-name {
     font-weight: bold;
     margin-top: 25px;
     letter-spacing: 2px;
 }
 
- .container .lines .row .image img {
+ .row .image img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-/* fine testimonials */
+/* end testimonials */
+
+
+
+
+
+
+
+
+
+/*  benefits squares */
+
+
+.benefits .container{
+      background-color: rgb(155, 149, 239);
+}
+
+ .container .ben-info h2 {
+    padding: 64px 0;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+ .container .square {
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+  
+}
+
+  .square .card {
+    width: calc((100% - 64px) / 3);
+    background-color: white;
+    color: rgb(191, 191, 191);
+    border-radius: 18px;
+    padding: 32px 34px;
+}
+
+.square .card h2 {
+    font-size: 70px;
+    margin-bottom: 9px;
+    color: rgb(155, 149, 239);
+
+}
+
+.square .card h3 {
+    font-size: 25px;
+    color:rgb(155, 149, 239);
+    margin-bottom: 18px;
+}
+
+.square .card p {
+    line-height: 30px;
+}
+
+.square .card .button-more {
+    background-color: rgb(155, 149, 239);
+    margin-top: 20px;
+    padding: 10px 50px ;
+    border-radius: 20px;
+    color: white;
+}
+
+/* #end benefits squares */
+
+
+
+
+
+

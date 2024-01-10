@@ -559,3 +559,40 @@ footer .info p a {
 
 
 
+
+/* inizio responsive */
+
+
+@media screen and (max-width: 992px) {
+
+    /* header */
+
+    header .container ul {
+        display: none;
+    }
+  
+/* end header */
+   
+
+    /* schema*/
+
+    .schema .container .card {
+        flex-direction: column;
+    }
+
+
+
+   .schema .container .card .right {
+    
+        width: 62%;
+    }
+
+   .schema  .card i {
+        font-size: 70px;
+    }
+
+    /* end schema */
+}
+
+
+

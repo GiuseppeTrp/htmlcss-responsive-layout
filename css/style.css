@@ -174,7 +174,7 @@ header .container ul li a{
 .purple .container {
     padding: 100px 200px;
     gap: 60px;
-    background-color:  rgb(155, 149, 239);
+    background-color:   rgb(155, 149, 239);
 }
 
 .purple .container .card {
@@ -182,27 +182,27 @@ header .container ul li a{
     flex-direction: column;
 }
 
-.purple .container .card.left {
+.purple .container .left {
     color: white;
     
 }
 
-.purple .container .card.left img {
+.purple .container .left img {
     padding-bottom:  115px;
     padding-top:40px;
 }
 
-.purple .container .card.left p {
+.purple .container .left p {
     font-size: 20px;
     line-height: 30px;
 }
 
-.purple .container .card.left h2 {
+.purple .container .left h2 {
     font-size: 36px;
     padding-bottom: 50px;
 }
 
-.purple .container .card.right {
+.purple .container .right {
     background-color: white;
     border-radius: 50px;
     margin-top: 190px;
@@ -211,26 +211,96 @@ header .container ul li a{
     align-items: center;
 }
 
-.purple .container .card.right h3 {
+.purple .container .right h3 {
     font-size:25px;
    
 }
 
-.purple .container .card.right p {
+.purple .container .right p {
     margin-top: 15px;
     font-size: 18px;
     font-style: italic;
 }
 
-.purple .container .card.right img {
+.purple .container .right img {
   
     padding-bottom: 24px;
 }
 
-.purple .container .card.right i {
+.purple .container .right i {
     margin-top: 24px;
     font-size: 15px;
     padding: 15px 18px;
     background-color:  rgb(155, 149, 239);
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+/* testimonials */
+
+.testimonials .container {
+   
+    padding: 70px 35px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .test-info {
+    padding-bottom: 50px;
+}
+
+
+
+.container .test-info h2 {
+    padding: 25px 0 35px;
+    color: rgb(155, 149, 239);
+    font-size: 50px;
+}
+
+.container .lines {
+    flex-direction: column;
+    gap: 35px;
+}
+
+ .container .lines .row {
+    background-color:rgb(155, 149, 239);
+    border-radius: 50px;
+    color: white;
+    padding: 20px 15px 20px;
+    align-items: center;
+    text-align: start;
+   
+}
+
+ .container .lines .row .info {
+    padding: 30px 35px 0px 65px;
+    line-height: 30px;
+}
+
+ .container .lines .row .info i:first-child {
+    vertical-align: top;
+   
+}
+
+
+ .container .lines .row .info .test-name {
+    font-weight: bold;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+ .container .lines .row .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* fine testimonials */

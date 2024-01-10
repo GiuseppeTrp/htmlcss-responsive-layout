@@ -181,7 +181,7 @@ header .container ul li a{
 .purple .container {
     padding: 100px 200px;
     gap: 60px;
-    background-color:   rgb(155, 149, 239);
+    background-color:   rgb(146, 138, 255);
 }
 
 .purple .container .card {
@@ -560,14 +560,14 @@ footer .info p a {
 
 
 
-/* inizio responsive */
+
 
 
 @media screen and (max-width: 992px) {
 
-    /* header */
+     /* header */
 
-    header .container ul {
+     header .container ul {
         display: none;
     }
   
@@ -592,7 +592,57 @@ footer .info p a {
     }
 
     /* end schema */
+
+
+
+
+    /* purple*/
+
+   .purple .container {
+        flex-direction: column;
+        padding: 125px 35px 65px;
+        gap: 35px;
+    }
+
+   .purple .container .card {
+        width: 100%;
+    }
+
+   .purple .container .left img {
+        width: 90%;
+        align-self: center;
+
+    }
+
+   .purple .container .left p {
+        font-size: 18px;
+    }
+
+   .purple .container .left h2 {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+
+   .purple .container .right {
+        margin-top: 0;
+    }
+
+
+   .purple .container .right img {
+        width: 90%;
+      
+    }
+
+
+
+    /* fine purple*/
+
+
+
+
+
+
+
+
 }
-
-
-
+   

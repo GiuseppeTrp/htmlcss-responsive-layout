@@ -102,19 +102,19 @@ header .container ul li a{
 }
 
 .schema .container .card p {
-    font-size: 1.125rem;
+    font-size: 20px;
 
 }
 
 .schema .container .card i {
     color: rgb(0, 123, 200);
-    font-size: 5rem;
+    font-size: 80px;
     padding-bottom: 24px;
 }
 
 .schema .container .card h2 {
     color: rgb(0, 123, 200);
-    font-size: 1.5rem;
+    font-size: 25px;
     margin-bottom: 24px;
 }
 
@@ -161,4 +161,76 @@ header .container ul li a{
 .schema .container .card .right{
     padding-bottom: 0 ;
     width: 50%;
+}
+
+
+
+
+
+
+
+/* purple */
+
+.purple .container {
+    padding: 100px 200px;
+    gap: 60px;
+    background-color:  rgb(155, 149, 239);
+}
+
+.purple .container .card {
+    width: 50%;
+    flex-direction: column;
+}
+
+.purple .container .card.left {
+    color: white;
+    
+}
+
+.purple .container .card.left img {
+    padding-bottom:  115px;
+    padding-top:40px;
+}
+
+.purple .container .card.left p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.purple .container .card.left h2 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.purple .container .card.right {
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 190px;
+    text-align: center;
+    padding: 30px 40px 25px;
+    align-items: center;
+}
+
+.purple .container .card.right h3 {
+    font-size:25px;
+   
+}
+
+.purple .container .card.right p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.purple .container .card.right img {
+  
+    padding-bottom: 24px;
+}
+
+.purple .container .card.right i {
+    margin-top: 24px;
+    font-size: 15px;
+    padding: 15px 18px;
+    background-color:  rgb(155, 149, 239);
+    border-radius: 50%;
 }
